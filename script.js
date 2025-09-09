@@ -15,6 +15,14 @@ $(document).ready(function () {
         }
     });
 
+    const menuBtn = document.querySelector('.menu-btn');
+    const menu = document.querySelector('.menu');
+
+    menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+
+
     // slide-up script
     $(".scroll-up-btn").click(function () {
         $("html").animate({ scrollTop: 0 });

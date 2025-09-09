@@ -87,9 +87,11 @@ section .title::after {
 /* navbar styling */
 .navbar {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 999;
-  padding: 30px 0;
+  z-index: 1000;
+  padding: 15px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
   background: transparent;
@@ -162,6 +164,7 @@ section .title::after {
   .menu-btn {
     display: block;
     z-index: 1001;
+    cursor: pointer;
   }
 
   .navbar .menu {
@@ -172,9 +175,9 @@ section .title::after {
     width: 100%;
     background: #111;
     flex-direction: column;
-    text-align: center;
-    padding-top: 80px;
-    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.3s ease;
   }
 
   .navbar .menu.active {
@@ -188,6 +191,7 @@ section .title::after {
   .navbar .menu li a {
     font-size: 25px;
     margin: 20px 0;
+    color: #fff;
   }
 }
 /* scroll up button styling */
