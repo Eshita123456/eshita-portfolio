@@ -99,7 +99,7 @@ section .title::after {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: crimson;
+  background: rgb(11, 12, 12);
 }
 
 .navbar .max-width {
@@ -116,7 +116,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-  color: crimson;
+  color: rgb(198, 219, 228);
   transition: all 0.3s ease;
 }
 
@@ -143,7 +143,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-  color: crimson;
+  color: rgb(216, 232, 241);
   cursor: pointer;
 }
 
@@ -255,7 +255,7 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: crimson;
+  color: rgb(71, 235, 247);
   font-weight: 500;
 }
 .classbox {
